@@ -97,336 +97,201 @@ div.blueTable {
 <body>
 <p>Click on the buttons inside the tabbed menu:</p>
 
+<!--START DYNAMIC PART-->
+
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Azure')">Azure</button>
-  <button class="tablinks" onclick="openTab(event, 'Coding')">Coding</button>
-  <button class="tablinks" onclick="openTab(event, 'Github')">Github</button>
-  <button class="tablinks" onclick="openTab(event, 'Kubernetes')">Kubernetes</button>
-  <button class="tablinks" onclick="openTab(event, 'My-stuff')">My-stuff</button>
-  <button class="tablinks" onclick="openTab(event, 'Tools')">Tools</button>
+    <button class="tablinks" onclick="openTab(event, 'My-Github')">My-Github</button>
+    <button class="tablinks" onclick="openTab(event, 'News')">News</button>
+    <button class="tablinks" onclick="openTab(event, 'Kubernetes')">Kubernetes</button>
+    <button class="tablinks" onclick="openTab(event, 'Social-media')">Social-media</button>
+    <button class="tablinks" onclick="openTab(event, 'Weather')">Weather</button>
+    <button class="tablinks" onclick="openTab(event, 'Cloud')">Cloud</button>
+    <button class="tablinks" onclick="openTab(event, 'Azure')">Azure</button>
+    <button class="tablinks" onclick="openTab(event, 'Learning')">Learning</button>
+    <button class="tablinks" onclick="openTab(event, 'Tools')">Tools</button>
+    <button class="tablinks" onclick="openTab(event, 'Bash')">Bash</button>
+    <button class="tablinks" onclick="openTab(event, 'Golang')">Golang</button>
+    <button class="tablinks" onclick="openTab(event, 'Perl')">Perl</button>
+    <button class="tablinks" onclick="openTab(event, 'PowerShell')">PowerShell</button>
 </div>
 
-
-<div id="Azure" class="tabcontent">
-    <div class="divTable blueTable">
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
+    <div id="Azure" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="" style="background-color:lime" onclick="window.open('https://docs.loganalytics.io/docs', '_blank');">https://docs.loganalytics.io/docs</div>
+                <div class="divTableCell" title="" style="background-color:violet" onclick="window.open('https://github.com/Microsoft/vsts-tasks', '_blank');">https://github.com/Microsoft/vsts-tasks</div>
+                <div class="divTableCell" title="" style="background-color:aquamarine" onclick="window.open('https://portal.azure.com', '_blank');">https://portal.azure.com</div>
+                <div class="divTableCell" title="" style="background-color:yellow" onclick="window.open('https://portal.loganalytics.io', '_blank');">https://portal.loganalytics.io</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell" title="" style="background-color:blue" onclick="window.open('https://resources.azure.com', '_blank');">https://resources.azure.com</div>
+                <div class="divTableCell" title="" style="background-color:red" onclick="window.open('https://shell.azure.com/', '_blank');">https://shell.azure.com/</div>
+            </div>
+    </div>
+</div>
+    <div id="Bash" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="A collection of pure bash alternatives to external processes. https://github.com/dylanaraps/pure-bash-bible" style="background-color:orange" onclick="window.open('https://github.com/dylanaraps/pure-bash-bible', '_blank');">The Pure Bash Bible</div>
+                <div class="divTableCell" title="https://www.gnu.org/software/bash/manual" style="background-color:darkviolet" onclick="window.open('https://www.gnu.org/software/bash/manual', '_blank');">GNU Bash manual</div>
+            </div>
+    </div>
+</div>
+    <div id="Cloud" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="https://docs.google.com" style="background-color:green" onclick="window.open('https://docs.google.com', '_blank');">Google Docs</div>
+                <div class="divTableCell" title="https://drive.google.com" style="background-color:pink" onclick="window.open('https://drive.google.com', '_blank');">Google Drive</div>
+                <div class="divTableCell" title="https://hub.docker.com/r/tedsluis" style="background-color:mediumslateblue" onclick="window.open('https://hub.docker.com/r/tedsluis', '_blank');">Docker hub</div>
+                <div class="divTableCell" title="https://mail.google.com" style="background-color:goldenrod" onclick="window.open('https://mail.google.com', '_blank');">Gmail</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell" title="https://marketplace.visualstudio.com" style="background-color:navajowhite" onclick="window.open('https://marketplace.visualstudio.com', '_blank');">Azure Marketplace</div>
+                <div class="divTableCell" title="https://outlook.live.com" style="background-color:olive" onclick="window.open('https://outlook.live.com', '_blank');">Outlook</div>
+                <div class="divTableCell" title="https://photos.google.com" style="background-color:moccasin" onclick="window.open('https://photos.google.com', '_blank');">Google Photo</div>
+                <div class="divTableCell" title="" style="background-color:lightgreen" onclick="window.open('https://portal.office.com', '_blank');">https://portal.office.com</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell" title="https://tedsluis.visualstudio.com" style="background-color:lavender" onclick="window.open('https://tedsluis.visualstudio.com', '_blank');">VSTS</div>
+                <div class="divTableCell" title="https://www.dropbox.com" style="background-color:lime" onclick="window.open('https://www.dropbox.com', '_blank');">Dropbox</div>
+                <div class="divTableCell" title="" style="background-color:violet" onclick="window.open('https://www.office.com', '_blank');">https://www.office.com</div>
+            </div>
+    </div>
+</div>
+    <div id="Golang" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="" style="background-color:aquamarine" onclick="window.open('https://github.com/golang', '_blank');">https://github.com/golang</div>
+                <div class="divTableCell" title="https://gobyexample.com" style="background-color:yellow" onclick="window.open('https://gobyexample.com', '_blank');">Golang by example.</div>
+                <div class="divTableCell" title="" style="background-color:blue" onclick="window.open('https://golang.org', '_blank');">https://golang.org</div>
+            </div>
+    </div>
+</div>
+    <div id="Kubernetes" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="" style="background-color:red" onclick="window.open('https://github.com/kubernetes/kubernetes', '_blank');">https://github.com/kubernetes/kubernetes</div>
+                <div class="divTableCell" title="Setup a Raspberry Pi based Kubernetes cluster with Ansible. " style="background-color:orange" onclick="window.open('https://github.com/rak8s/rak8s', '_blank');">https://github.com/rak8s/rak8s</div>
+                <div class="divTableCell" title="https://kubernetes.io/blog" style="background-color:darkviolet" onclick="window.open('https://kubernetes.io/blog', '_blank');">Kubernetes Blog</div>
+                <div class="divTableCell" title="" style="background-color:green" onclick="window.open('https://kubernetes.io/docs/home', '_blank');">https://kubernetes.io/docs/home</div>
+            </div>
+    </div>
+</div>
+    <div id="Learning" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="" style="background-color:pink" onclick="window.open('https://eu.udacity.com', '_blank');">https://eu.udacity.com</div>
+                <div class="divTableCell" title="" style="background-color:mediumslateblue" onclick="window.open('https://instruqt.com', '_blank');">https://instruqt.com</div>
+                <div class="divTableCell" title="" style="background-color:goldenrod" onclick="window.open('https://training.linuxfoundation.org', '_blank');">https://training.linuxfoundation.org</div>
+                <div class="divTableCell" title="" style="background-color:navajowhite" onclick="window.open('https://www.cncf.io/certification/training', '_blank');">https://www.cncf.io/certification/training</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell" title="" style="background-color:olive" onclick="window.open('https://www.edx.org', '_blank');">https://www.edx.org</div>
+                <div class="divTableCell" title="" style="background-color:moccasin" onclick="window.open('https://www.pluralsight.com', '_blank');">https://www.pluralsight.com</div>
+            </div>
+    </div>
+</div>
+    <div id="My-Github" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="https://github.com/tedsluis" style="background-color:lightgreen" onclick="window.open('https://github.com/tedsluis', '_blank');">My Github repos.</div>
+                <div class="divTableCell" title="3d printing with Select Mini / ProFab Mini / Malyan M200 / Prima Creator P120 / Mono price. " style="background-color:lavender" onclick="window.open('https://github.com/tedsluis/3d-parts', '_blank');">https://github.com/tedsluis/3d-parts</div>
+                <div class="divTableCell" title="Ansible playbooks for dump1090. " style="background-color:lime" onclick="window.open('https://github.com/tedsluis/ansible-dump1090', '_blank');">https://github.com/tedsluis/ansible-dump1090</div>
+                <div class="divTableCell" title="Monitor OpenShift externally using Cachet and Cachet-monitor. " style="background-color:violet" onclick="window.open('https://github.com/tedsluis/cachet', '_blank');">https://github.com/tedsluis/cachet</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell" title="Distributed monitoring plugin for CachetHQ. " style="background-color:aquamarine" onclick="window.open('https://github.com/tedsluis/cachet-monitor', '_blank');">https://github.com/tedsluis/cachet-monitor</div>
+                <div class="divTableCell" title="Cachet and Cachet-monitor running on Docker. " style="background-color:yellow" onclick="window.open('https://github.com/tedsluis/cachet-on-docker', '_blank');">https://github.com/tedsluis/cachet-on-docker</div>
+                <div class="divTableCell" title="Dockerfile for dump1090-mutability (modified version). " style="background-color:blue" onclick="window.open('https://github.com/tedsluis/docker-dump1090', '_blank');">https://github.com/tedsluis/docker-dump1090</div>
+                <div class="divTableCell" title="Dump1090 is a simple Mode S decoder for RTLSDR devices. " style="background-color:red" onclick="window.open('https://github.com/tedsluis/dump1090', '_blank');">https://github.com/tedsluis/dump1090</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell" title="collect dump1090 flight positions using socket30003 and save them as csv. " style="background-color:orange" onclick="window.open('https://github.com/tedsluis/dump1090.socket30003', '_blank');">https://github.com/tedsluis/dump1090.socket30003</div>
+                <div class="divTableCell" title="Scripts for collecting statistic data from dump1090. " style="background-color:darkviolet" onclick="window.open('https://github.com/tedsluis/dump1090-tools', '_blank');">https://github.com/tedsluis/dump1090-tools</div>
+                <div class="divTableCell" title="TOC creation for GitHub README.md. " style="background-color:green" onclick="window.open('https://github.com/tedsluis/github-markdown-toc', '_blank');">https://github.com/tedsluis/github-markdown-toc</div>
+                <div class="divTableCell" title="Deploy Kubernetes on a single host via Kubeadm. " style="background-color:pink" onclick="window.open('https://github.com/tedsluis/kubernetes-via-kubeadm', '_blank');">https://github.com/tedsluis/kubernetes-via-kubeadm</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell" title="This link page repo. " style="background-color:mediumslateblue" onclick="window.open('https://github.com/tedsluis/linkpage', '_blank');">https://github.com/tedsluis/linkpage</div>
+                <div class="divTableCell" title="Makeblock stuff. " style="background-color:goldenrod" onclick="window.open('https://github.com/tedsluis/mBot', '_blank');">https://github.com/tedsluis/mBot</div>
+                <div class="divTableCell" title="scan & visualize subnets. " style="background-color:navajowhite" onclick="window.open('https://github.com/tedsluis/nmap', '_blank');">https://github.com/tedsluis/nmap</div>
+                <div class="divTableCell" title="Openshift / Origin object backup script. " style="background-color:olive" onclick="window.open('https://github.com/tedsluis/openshift-backup', '_blank');">https://github.com/tedsluis/openshift-backup</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell" title="Setup a Raspberry Pi based Kubernetes cluster with Ansible (fork). " style="background-color:moccasin" onclick="window.open('https://github.com/tedsluis/rak8s', '_blank');">https://github.com/tedsluis/rak8s</div>
+                <div class="divTableCell" title="My tmux config file " style="background-color:lightgreen" onclick="window.open('https://github.com/tedsluis/tmux.conf', '_blank');">https://github.com/tedsluis/tmux.conf</div>
+            </div>
+    </div>
+</div>
+    <div id="News" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="" style="background-color:lavender" onclick="window.open('https://news.ycombinator.com', '_blank');">https://news.ycombinator.com</div>
+                <div class="divTableCell" title="" style="background-color:lime" onclick="window.open('https://tweakers.net', '_blank');">https://tweakers.net</div>
+            </div>
+    </div>
+</div>
+    <div id="Perl" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="http://oss.oetiker.ch/rrdtool" style="background-color:violet" onclick="window.open('http://oss.oetiker.ch/rrdtool', '_blank');">RRD tools</div>
+            </div>
+    </div>
+</div>
+    <div id="PowerShell" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="" style="background-color:aquamarine" onclick="window.open('https://github.com/pester/Pester', '_blank');">https://github.com/pester/Pester</div>
+                <div class="divTableCell" title="" style="background-color:yellow" onclick="window.open('https://www.powershellmagazine.com', '_blank');">https://www.powershellmagazine.com</div>
+            </div>
+    </div>
+</div>
+    <div id="Social-media" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="" style="background-color:blue" onclick="window.open('https://bugzilla.redhat.com', '_blank');">https://bugzilla.redhat.com</div>
+                <div class="divTableCell" title="https://discuss.kubernetes.io" style="background-color:red" onclick="window.open('https://discuss.kubernetes.io', '_blank');">Kubernetes Forum</div>
+                <div class="divTableCell" title="https://forums.fedoraforum.org/forum.php" style="background-color:orange" onclick="window.open('https://forums.fedoraforum.org/forum.php', '_blank');">Fedora Forum</div>
+                <div class="divTableCell" title="https://forums.oneplus.com" style="background-color:darkviolet" onclick="window.open('https://forums.oneplus.com', '_blank');">Oneplus Forum</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell" title="https://stackoverflow.com" style="background-color:green" onclick="window.open('https://stackoverflow.com', '_blank');">Stackoverflow</div>
+                <div class="divTableCell" title="https://www.airbnb.com" style="background-color:pink" onclick="window.open('https://www.airbnb.com', '_blank');">Airbnb</div>
+                <div class="divTableCell" title="https://www.linkedin.com/tedsluis" style="background-color:mediumslateblue" onclick="window.open('https://www.linkedin.com/tedsluis', '_blank');">Linkedin</div>
+                <div class="divTableCell" title="https://www.meetup.com" style="background-color:goldenrod" onclick="window.open('https://www.meetup.com', '_blank');">Meetup</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell" title="https://www.twitter.com" style="background-color:navajowhite" onclick="window.open('https://www.twitter.com', '_blank');">Twitter</div>
+                <div class="divTableCell" title="https://www.yammer.com" style="background-color:olive" onclick="window.open('https://www.yammer.com', '_blank');">Yammer</div>
+                <div class="divTableCell" title="https://www.youtube.com/channel/UCnR4rVCm_8gCjY_m3t1ExgA" style="background-color:moccasin" onclick="window.open('https://www.youtube.com/channel/UCnR4rVCm_8gCjY_m3t1ExgA', '_blank');">My Youtube channel</div>
+            </div>
+    </div>
+</div>
+    <div id="Tools" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="" style="background-color:lightgreen" onclick="window.open('https://www.ipaddressguide.com', '_blank');">https://www.ipaddressguide.com</div>
+            </div>
+    </div>
+</div>
+    <div id="Weather" class="tabcontent">
+        <div class="divTable blueTable">
+            <div class="divTableRow">
+                <div class="divTableCell" title="https://buienradar.nl" style="background-color:lavender" onclick="window.open('https://buienradar.nl', '_blank');">Buienradar</div>
+                <div class="divTableCell" title="https://knmi.nl" style="background-color:lime" onclick="window.open('https://knmi.nl', '_blank');">KNMI</div>
+                <div class="divTableCell" title="https://nl.sat24.com/nl" style="background-color:violet" onclick="window.open('https://nl.sat24.com/nl', '_blank');">SAT24</div>
+                <div class="divTableCell" title="on commandline use: curl https://wttr.in/utrecht" style="background-color:aquamarine" onclick="window.open('https://wttr.in/utrecht', '_blank');">wttr.in</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell" title="https://www.meteox.com" style="background-color:yellow" onclick="window.open('https://www.meteox.com', '_blank');">METEOX</div>
+                <div class="divTableCell" title="https://www.windguru.cz" style="background-color:blue" onclick="window.open('https://www.windguru.cz', '_blank');">Windguru</div>
+                <div class="divTableCell" title="https://www.windy.com" style="background-color:red" onclick="window.open('https://www.windy.com', '_blank');">Windy</div>
+            </div>
     </div>
 </div>
 
-<div id="Coding" class="tabcontent">
-    <div class="divTable blueTable">
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-    </div>
-</div>
-
-<div id="Github" class="tabcontent">
-    <div class="divTable blueTable">
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-    </div>
-</div>
-
-<div id="Kubernetes" class="tabcontent">
-    <div class="divTable blueTable">
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-    </div>  
-</div>
-
-<div id="My-stuff" class="tabcontent">
-    <div class="divTable blueTable">
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-    </div>  
-</div>
-
-<div id="Tools" class="tabcontent">
-    <div class="divTable blueTable">
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-        <div class="divTableRow">
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        <div class="divTableCell" style="background-color:orange" onclick="window.open('https://github.com/tedsluis', '_blank');">https://github.com/tedsluis</div>
-        </div>
-    </div>  
-</div>
-
+<!--END DYNAMIC PART-->
 <script>
-var id="Tools";
 function openTab(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
