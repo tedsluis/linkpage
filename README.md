@@ -7,7 +7,8 @@ Generate html page with bookmarks
 * Opens URLs in a new browser tab.
   
 ## Screenshots
-[![Linkpage screenshot](https://raw.githubusercontent.com/tedsluis/linkpage/master/screenshot.git)](https://raw.githubusercontent.com/tedsluis/linkpage/master/screenshot.gif)
+[![Linkpage screenshot](https://raw.githubusercontent.com/tedsluis/linkpage/master/screenshot.gif)](https://raw.githubusercontent.com/tedsluis/linkpage/master/screenshot.gif)
+
 Try it: http://htmlpreview.github.io/?https://github.com/tedsluis/linkpage/blob/master/index.html
 
 
