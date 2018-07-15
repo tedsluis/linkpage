@@ -1,7 +1,18 @@
 # linkpage
-Generate html page with bookmarks  
+Generate html page with bookmarks
+* Creates single `index.html` file with links.
+* Generation based on an `INI` file with URLs.
+* Generated using a bash script.
+* Links categorized on seperate page tabs.
+* Opens URLs in a new browser tab.
+  
+## Screenshots
+[![Dump1090 Heatmap](https://raw.githubusercontent.com/tedsluis/linkpage/master/screenshot.gi)](https://raw.githubusercontent.com/tedsluis/linkpage/master/screenshot.gif)
+Try it: http://htmlpreview.github.io/?https://github.com/tedsluis/linkpage/blob/master/index.html
 
-The link page will be generated based on a list of URLs in an `INI` file format:  
+
+## URLs url.ini file
+The link page will be generated based on a list of URLs in the url.ini file. This file has an `INI` file format:  
 ```
 [Learning]
 https://instruqt.com;Instruqt
@@ -22,6 +33,21 @@ https://gobyexample.com;Golang by example.
 etc....
 ```
   
+## File format  
+The `INI` format is of the url.ini:   
+* The `INI` file must contain one or more [SECTIONS].
+* Each [SECTION] must be followed by one or more line(s) with a URL.
+* Each line with an URL can also contain a display TEXT and a TITLE (displayed while mouse hoover).
+```
+[<SECTION NAME>]  
+<URL>[;[<TEXT>[;[<TITLE>]]]]
+```
+* SECTION NAME = Display name tab (mandatory). Each section will create a new tab page.
+* URL = Link address (mandatory).
+* TEXT = Text displayed on the link page (optional). If not specified, the URL will be displayed.
+* TITLE = Additional description, displayed when mouse hoover (optional). When TEXT is specified, the URL is added to the TITLE.
+  
+## Generate index.html
 To re-generate a new `index.html` file, run the `create-link-page.sh` script:  
 ```
 $ ./create-link-page.sh 
