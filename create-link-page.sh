@@ -23,18 +23,24 @@ COLOR_ARRAY[15]="lightgreen"
 COLOR_ARRAY[16]="lavender"
 MAX_COLORS=$(( ${#COLOR_ARRAY[@]} - 1 )) 
 
-# Generated static head of index.html
-sed -e '/START/q' index.org > index.html
+# Generated static head of index.tmp
+sed -e '/START/q' index.html > index.tmp
 
-# Generate dynamic part of index.html
-echo '' >> index.html
-echo '<div class="tab">' >> index.html
+# Generate dynamic part of index.tmp
+echo '' >> index.tmp
+echo '<div class="tab">' >> index.tmp
 declare -A SECTION_HASH
 declare -A URL_HASH
 declare -A TEXT_HASH
 declare -A TITLE_HASH
 # Read INI file
 SECTION=""
+COUNT_SECTIONS=0
+COUNT_URLS=0
+COUNT_SKIPPED=0
+COUNT_UNMATCH=0
+echo ""
+echo "Read url.ini:"
 while IFS='' read -r LINE || [[ -n "$LINE" ]]
 do
 	URL=""
@@ -45,9 +51,10 @@ do
 		SECTION=$(echo $SECTION | sed 's/[ ]/-/'g)
 		SECTION_HASH+=( [$SECTION]="" )
 		# Generate tabs
-		echo "    <button class=\"tablinks\" onclick=\"openTab(event, '$SECTION')\">$SECTION</button>" >> index.html
+		echo "    <button class=\"tablinks\" onclick=\"openTab(event, '$SECTION')\">$SECTION</button>" >> index.tmp
+		COUNT_SECTIONS=$(($COUNT_SECTIONS + 1))
 	elif [[ $LINE =~ ^# ]] || [[ $LINE =~ ^\s*$ ]]; then
-	       echo "Skip line."	
+	        COUNT_SKIPPED=$(($COUNT_SKIPPED + 1))
 	else
 		# Generate URL, TEXT and TITLE
 		IFS=';' read -ra FIELD <<< "$LINE"
@@ -67,49 +74,64 @@ do
 			fi
 			TEXT_HASH+=( [$URL]=$TEXT )
 			TITLE_HASH+=( [$URL]=$TITLE )
-			echo "URL=$URL TEXT=$TEXT TITLE=$TITLE"
+			COUNT_URLS=$(($COUNT_URLS + 1))
 		else
-			echo "geen match: LINE=$LINE, FIELD=${!FIELD[@]}, FIELD1=${FIELD[0]}" 
+			COUNT_UNMATCH=$(($COUNT_UNMATCH + 1)) 
 		fi
 	fi
 done < url.ini
-echo '</div>' >> index.html
-echo '' >> index.html
+echo "number of sections: $COUNT_SECTIONS"
+echo "number of URLs: $COUNT_URLS"
+echo "number of lines skipped: $COUNT_SKIPPED"
+echo "number of lines that didn't match: $COUNT_UNMATCH"
+echo '</div>' >> index.tmp
+echo '' >> index.tmp
 
 # Generated tab pages
 COLOR_NUMBER=0
+echo ""
+echo "URLs per section:"
 for SECTION in $( echo "${!SECTION_HASH[@]}" | tr " " "\n" | sort | tr "\n" " ")
 do
+	echo -n "$SECTION"
 	COLUMN_COUNTER=0
-	echo "    <div id=\"$SECTION\" class=\"tabcontent\">" >> index.html
-        echo '        <div class="divTable blueTable">' >> index.html
-	echo "SECTION=$SECTION"
+	COUNT_URLS=0
+	echo "    <div id=\"$SECTION\" class=\"tabcontent\">" >> index.tmp
+        echo '        <div class="divTable blueTable">' >> index.tmp
 	for URL in $(echo "${!URL_HASH[@]}" | tr " " "\n" | sort | tr "\n" " ")
 	do
 		if [[ "$SECTION" == "${URL_HASH[$URL]}" ]]; then
 			COLUMN_COUNTER=$(($COLUMN_COUNTER + 1))
-			echo "COLUMN_COUNTER=$COLUMN_COUNTER SECTION=$SECTION URL=$URL SECTION=${URL_HASH[$URL]} COLOR_NUMBER=$COLOR_NUMBER COLOR=${COLOR_ARRAY[$COLOR_NUMBER]}";
 			if [[ $COLUMN_COUNTER -eq 1 ]]; then
-				echo '            <div class="divTableRow">' >> index.html
+				echo '            <div class="divTableRow">' >> index.tmp
 			fi
-			echo "                <div class=\"divTableCell\" title=\"${TITLE_HASH[$URL]}\" style=\"background-color:${COLOR_ARRAY[$COLOR_NUMBER]}\" onclick=\"window.open('${URL}', '_blank');\">${TEXT_HASH[$URL]}</div>" >> index.html
+			echo "                <div class=\"divTableCell\" title=\"${TITLE_HASH[$URL]}\" style=\"background-color:${COLOR_ARRAY[$COLOR_NUMBER]}\" onclick=\"window.open('${URL}', '_blank');\">${TEXT_HASH[$URL]}</div>" >> index.tmp
+			echo -n "."
+			COUNT_URLS=$(($COUNT_URLS + 1))
 			COLOR_NUMBER=$(($COLOR_NUMBER + 1))
 			if [[ $COLOR_NUMBER -gt $MAX_COLORS ]]; then
 				COLOR_NUMBER=0
 			fi
 			if [[ $COLUMN_COUNTER -eq $MAX_COLUMNS ]]; then
 				COLUMN_COUNTER=0
-				echo '            </div>' >> index.html
+				echo '            </div>' >> index.tmp
 			fi
 		fi
 	done
+	echo "($COUNT_URLS)"
 	if [[ $COLUMN_COUNTER -ne 0 ]]; then
-		echo '            </div>' >> index.html
+		echo '            </div>' >> index.tmp
 	fi
-	echo '    </div>' >> index.html
-	echo '</div>' >> index.html
+	echo '    </div>' >> index.tmp
+	echo '</div>' >> index.tmp
 done
-echo '' >> index.html
+echo '' >> index.tmp
 
-# Generate static tail of index.html
-sed -n -e '/END/,$p' index.org >> index.html
+# Generate static tail of index.tmp
+sed -n -e '/END/,$p' index.html >> index.tmp
+
+# Move index.tmp to index.html
+mv -f index.tmp index.html
+
+echo ""
+echo "New index.html generated!"
